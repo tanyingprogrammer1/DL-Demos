@@ -94,3 +94,4 @@ if __name__ == '__main__':
 
     net.load_state_dict(torch.load(model_path))
     sample_imgs(ddpm, net, 'work_dirs/diffusion.jpg', device=device)
+    print('done!')
